@@ -1,0 +1,17 @@
+*.aux
+*.log
+*~
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.brf
+*.tdo
+000_main.pdf
+out/*
+_minted*
+comment.cut
+.fuse*
+.ccls*
+.aspell*
