@@ -7,11 +7,10 @@
 *.fls
 *.fdb_latexmk
 *.brf
-*.tdo
 000_main.pdf
 out/*
 _minted*
 comment.cut
 .fuse*
+build/*
 .ccls*
-.aspell*
