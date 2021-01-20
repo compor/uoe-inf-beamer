@@ -18,6 +18,7 @@
 \defbeamertemplate{institute logo}{institute logo}[1][]{}
 \def\insertinstitutelogo{\usebeamertemplate*{institute logo}}
 \newcommand{\institutelogo}[1]{\setbeamertemplate{institute logo}{#1}}
+
 \setbeamertemplate{sidebar right}{}
 \institutelogo{\includegraphics[height=0.05\paperheight]{logos/school_of_informatics}}
 
@@ -40,6 +41,9 @@
 \setbeamertemplate{footline}{%
   \hspace{0.02\paperwidth}%
   \insertinstitutelogo%
+  \hfill%
+  \hspace{0.1\paperwidth}%
+  \includegraphics[height=0.075\paperheight]{logos/uoe_stacked_logo}%
   \hfill%
   \insertprojectlogo%
   \hspace{0.02\paperwidth}%
